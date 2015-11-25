@@ -22,16 +22,24 @@ body {
     /*font-family:  myFont;*/
 }
 h1 {
-    font-family: BentonSans;
+    font-family: myFont;
     color: black;
 }
 /*============ header ===========*/
 .header{
     margin: 50px 0px 50px 0px;
+
 }
 /*------end-header------*/
 
 /*=========== image-part-one ============*/
+ 
+.text > h1{
+    font-family: slider;
+}
+.img_one_text{
+    font-family: myFont;
+}
 .img_one_text::after {
     content: "";
     top: 55px;
@@ -55,17 +63,24 @@ h1 {
 }
 .text-span {
     font-size: 18px;
+    font-family: slider;
 }
 .img_one_text_bottom {
     padding-top: 100px;
+    color: #E0E0E0;
 }
 .text-span-bottom {
     font-size: 20px;
     font-family: BentonSans;
     color: black;
 }
+.button_text{
+    font-family: myFont;
+    line-height: 35px;
+}
 .text-space {
     margin-left: 20px;
+    color: grey;
 }
 .left_side_text {
     font-size: 16px;
@@ -116,15 +131,24 @@ h1 {
     /*margin:70px 0px;*/
 }
 .image_part_four{
-    background: url(../images/image_part_four.jpg);
-    min-height: 400px;
+    background: url(../images/s4.jpg);
+    min-height: 450px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
+.bottom_text{
+    padding: 40px 0px;
+}
 /*=========== image-part-five =============*/
 
-.img_four_text::after {
+.image_part_five{
+     margin-top: 80px;
+}
+.img_five_text{
+    font-family: myFont;
+}
+.img_five_text::after {
     content: "";
     top: 188px;
     width: 240px;
@@ -133,7 +157,7 @@ h1 {
     position: absolute;
     left: 16px;
 }
-.img_four_text::before {
+.img_five_text::before {
     content: "";
     top: 188px;
     width: 158px;
@@ -142,12 +166,19 @@ h1 {
     position: absolute;
     left: 255px;
 }
-.text_four_head {
+.text_five_head {
     margin: 45px 0px;
     overflow: hidden;
 }
 .image_four_text_margin_bottom {
     margin-bottom: 20px;
+}
+.img_five_text_bottom {
+    padding-top: 100px;
+    color: #E0E0E0;
+}
+.part_five_bottom_text{
+    margin-top: 8px;
 }
 /*=========== image-part-six ==============*/
 
@@ -161,8 +192,15 @@ h1 {
 .small_font{
     font-size: 14px;
 }
+.part_six_text {
+    font-family: slider;
+    font-weight: bold;
+}
 /*============ emage-slider ===========*/
-
+.slider_text{
+    font-family: myFont;
+    margin-bottom: 40px;
+}
 #owl-demo .item {
     margin: 0px;
 }
@@ -196,7 +234,8 @@ h1 {
 /*================= footer-part =====================*/
 
 .footer {
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    font-family: myFont;
 }
 .footer_part {
     /*font-family: mini-headline;*/
@@ -205,7 +244,7 @@ h1 {
 }
 .text_large {
     font-size: 30px;
-    font-family: BentonSans;
+    font-family: myFont;
 }
 .text_mini {
     font-size: 17px;
@@ -215,14 +254,17 @@ h1 {
 #input_field {
     /*padding: 30px 80px;*/
     
-    height: 60px !important;
+    height: 55px !important;
 }
 .submisson_button {
-    padding: 18px 12px !important;
+    padding: 15px 12px !important;
     font-size: 16px;
 }
 .footer_bottom_part {
     margin: 50px 0px;
+}
+.footer_bottom_left{
+    margin-left: -58px;
 }
 .about {
     text-decoration: none;
@@ -235,4 +277,7 @@ ul li {
 }
 a {
     text-decoration: none;
+}
+.footer_logo{
+    padding: 40px 0px;
 }
