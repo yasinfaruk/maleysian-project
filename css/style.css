@@ -319,7 +319,7 @@ button#signup-button {
     color: grey;
 }
 .left_side_text {
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     font-family: BentonSans;
 }
@@ -329,6 +329,7 @@ button#signup-button {
 }
 .img_one_bottom_text {
     margin-top: 50px;
+    font-family: myFont;
 }
 
 
@@ -341,6 +342,7 @@ button#signup-button {
     font-family: slider;
     margin: 180px 25px;
     /*padding: 209px 60px;*/
+    font-size: 17px;
 }
 /*----- end-image-part-two -------*/
 
@@ -366,6 +368,7 @@ button#signup-button {
 .text_image_three{
     font-family: slider;
     padding: 209px 60px;
+    font-size: 18px;
 }
 
 
@@ -377,7 +380,7 @@ button#signup-button {
     /*margin:70px 0px;*/
 }
 .image_part_four{
-    background: url(../images/s4.jpg);
+    background: url(../images/b.jpg);
     min-height: 450px;
     background-size: cover;
     background-position: center center;
@@ -385,6 +388,8 @@ button#signup-button {
 }
 .bottom_text{
     padding: 40px 0px;
+    font-size: 18px;
+    font-family: slider;
 }
 
 
@@ -448,6 +453,7 @@ button#signup-button {
 .part_six_text {
     font-family: slider;
     font-weight: bold;
+    font-size: 16px;
 }
 
 
