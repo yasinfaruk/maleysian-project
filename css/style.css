@@ -25,8 +25,91 @@ h1 {
     font-family: myFont;
     color: black;
 }
-/*============ header ===========*/
+
+/*===============================================================================================*/
+        /*----------------- landing-page-css*/
+/*===============================================================================================*/
 .header{
+    margin: 0 !important;
+    padding: 0 !important;
+    background: url(../images/back.jpg);
+    background-size: cover;
+    min-height: 800px;
+    
+}
+.header_logo{
+    margin: 40px 80px;
+}
+.border_line{
+    border: 1px solid grey;
+    margin-bottom: 5px;
+}
+.text_slider {
+    margin: 185px 85px;
+    color: white;
+    font-family: slider;
+    font-size: 16px;    
+}
+.text_slider h2{
+    font-family: myFont;
+    font-weight: normal;
+}
+.move_indicator {
+    margin: -42px -320px;
+}
+.move_indicator li {
+     width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.move_indicator .active {
+    width: 17px;
+    height: 17px;;
+}
+.slide_button {
+    margin-bottom: 15px;
+}
+
+/*====================== SEARCH-BAR-PART ====================*/
+.search_bar{
+    margin: 50px 0px;
+}
+h2{
+    font-family: myFont;
+}
+h2.search_text {
+    border-bottom: 1px solid grey;
+}
+.search_bar_form {
+    padding: 32px 0px;
+    font-family: myFont;
+        margin-left: 20px;
+}
+#search_input_field{
+    margin-right: 15px !important;
+    border-color: #000 !important;
+    height: 40px !important;
+}
+.search_submisson_button{
+    padding: 8px 12px !important;
+    font-size: 16px;
+    border-color: #000;
+}
+/*================== TEXT-GALLERY ================*/
+.text_gallery{
+    font-family: slider;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+/*=========== */
+/*===============================================================================================*/
+        /*----------------- product-page-css*/
+/*===============================================================================================*/
+
+
+/*============ header ===========*/
+.menubar{
     margin: 50px 0px 50px 0px;
 
 }
@@ -276,9 +359,13 @@ h1 {
 }
 ul li {
     list-style: none;
+
 }
 a {
     text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-family: slider;
 }
 .footer_logo{
     padding: 40px 0px;
