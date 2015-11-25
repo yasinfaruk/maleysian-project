@@ -25,6 +25,13 @@ h1 {
     font-family: BentonSans;
     color: black;
 }
+/*============ header ===========*/
+.header{
+    margin: 50px 0px 50px 0px;
+}
+/*------end-header------*/
+
+/*=========== image-part-one ============*/
 .img_one_text::after {
     content: "";
     top: 55px;
@@ -72,6 +79,37 @@ h1 {
 .img_one_bottom_text {
     margin-top: 50px;
 }
+/*=============== image-part-two ================*/
+.image_part_two{
+    margin: 50px 0px;
+}
+.text_image_two{
+    font-family: slider;
+    margin: 180px 25px;
+    /*padding: 209px 60px;*/
+}
+/*----- end-image-part-two -------*/
+/*=============== image-part-three ================*/
+.image_part_three{
+    margin: 100px 0px;
+}
+.image_three{
+    background: url(../images/fashion2.jpg);
+    min-height: 620px;
+    min-width: 720px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.no_right_padding{
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+.text_image_three{
+    font-family: slider;
+    padding: 209px 60px;
+}
 
 /*============== image-part-four ============*/
 .image_four{
@@ -83,8 +121,6 @@ h1 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /*background-attachment: fixed;*/
-    padding: 60px 0px;
 }
 /*=========== image-part-five =============*/
 
@@ -120,7 +156,7 @@ h1 {
     padding-left: 0 !important;
 }
 .no_padding {
-    padding-left: 0;
+    padding-left: 0 !important;
 }
 .small_font{
     font-size: 14px;
