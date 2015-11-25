@@ -102,7 +102,23 @@ h2.search_text {
     line-height: 24px;
     text-align: justify;
 }
-/*=========== */
+/*==================== SIGN-UP-PART ==================*/
+.sign_up{
+   
+}
+.signup_border{
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    padding: 70px 0px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+button#signup-button {
+    font-family: myFont;
+    width: 220px;
+    height: 60px;
+    font-size: 30px;
+}
 /*===============================================================================================*/
         /*----------------- product-page-css*/
 /*===============================================================================================*/
