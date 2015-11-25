@@ -27,7 +27,7 @@ h1 {
 }
 
 /*===============================================================================================*/
-        /*----------------- landing-page-css*/
+        /*----------------- landing-page-css----------------*/
 /*===============================================================================================*/
 .header{
     margin: 0 !important;
@@ -95,13 +95,145 @@ h2.search_text {
     font-size: 16px;
     border-color: #000;
 }
+
+
+/*================ IMAGE-GALLERY ==================*/
+.image_gallery{
+    margin-bottom: 50px;
+}
+.image_navbar{
+
+}
+.item_navbar ul li h3{
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: myFont;
+
+}
+
+.image img{
+    margin-bottom: 30px;
+}
+.image {
+    position: relative;
+    color: white;
+}
+
+.upper{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    display: inline-block;
+}
+.lower{
+    top: 90%;
+    position: absolute;
+    width: 100%;
+
+}
+
+.lower::after {
+    content: "";
+    top: 25px;
+    width: 39%;
+    height: 2px;
+    background: #FF5A5F;
+    position: absolute;
+    left: 12%;
+}
+.lower::before {
+    content: "";
+    top: 25px;
+    width: 43%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: 45%;
+}
+
+
+
+.hovereffect .overlay {
+    position: absolute;
+    overflow: hidden;
+    width: 98%;
+    height: 98%;
+    left: 1%;
+    top: 1%;
+    border: 2px solid #FF5A5F;
+
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+
+}
+
+.hovereffect:hover img {
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');*/
+filter: brightness(0.2);
+    -webkit-filter: brightness(0.2);
+
+}
+
+
+.hovereffect .hov {
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.35);
+    padding: 20% 10%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+
+
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+
+.content-border{
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+/*-----------end-image-gallery-----------------*/
+
 /*================== TEXT-GALLERY ================*/
 .text_gallery{
     font-family: slider;
     font-size: 16px;
     line-height: 24px;
     text-align: justify;
+    margin-bottom: 50px;
 }
+
+
+
 /*==================== SIGN-UP-PART ==================*/
 .sign_up{
    
@@ -119,8 +251,13 @@ button#signup-button {
     height: 60px;
     font-size: 30px;
 }
+
+
+
+
+
 /*===============================================================================================*/
-        /*----------------- product-page-css*/
+        /*----------------- product-page-css -------------------*/
 /*===============================================================================================*/
 
 
@@ -193,6 +330,9 @@ button#signup-button {
 .img_one_bottom_text {
     margin-top: 50px;
 }
+
+
+
 /*=============== image-part-two ================*/
 .image_part_two{
     margin: 50px 0px;
@@ -203,6 +343,9 @@ button#signup-button {
     /*padding: 209px 60px;*/
 }
 /*----- end-image-part-two -------*/
+
+
+
 /*=============== image-part-three ================*/
 .image_part_three{
     margin: 100px 0px;
@@ -225,6 +368,10 @@ button#signup-button {
     padding: 209px 60px;
 }
 
+
+
+
+
 /*============== image-part-four ============*/
 .image_four{
     /*margin:70px 0px;*/
@@ -239,6 +386,10 @@ button#signup-button {
 .bottom_text{
     padding: 40px 0px;
 }
+
+
+
+
 /*=========== image-part-five =============*/
 
 .image_part_five{
@@ -279,6 +430,9 @@ button#signup-button {
 .part_five_bottom_text{
     margin-top: 8px;
 }
+
+
+
 /*=========== image-part-six ==============*/
 
 .image_part_six {
@@ -295,6 +449,9 @@ button#signup-button {
     font-family: slider;
     font-weight: bold;
 }
+
+
+
 /*============ emage-slider ===========*/
 .slider_text{
     font-family: myFont;
@@ -330,6 +487,9 @@ button#signup-button {
 .slider_bottom_padding {
     margin-bottom: 50px;
 }
+
+
+
 /*================= footer-part =====================*/
 
 .footer {
