@@ -35,10 +35,13 @@ h1 {
     background: url(../images/back.jpg);
     background-size: cover;
     min-height: 800px;
-    
+    background-attachment: fixed;
 }
 .header_logo{
     margin: 40px 80px;
+}
+.menu_logo {
+    margin-top: 55px;
 }
 .border_line{
     border: 1px solid grey;
